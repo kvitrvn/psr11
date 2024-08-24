@@ -1,0 +1,31 @@
+{
+    "name": "kvitrvn/psr11",
+    "description": "Simple PSR-7 implementation",
+    "type": "library",
+    "require-dev": {
+        "phpunit/phpunit": "^10.5",
+        "friendsofphp/php-cs-fixer": "^3.62",
+        "phpstan/phpstan": "^1.11"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Kvitrvn\\Psr11\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Kvitrvn\\Psr11\\Tests\\" : "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "kvitrvn",
+            "email": "kvitrvn@proton.me"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "psr/container": "^2.0"
+    }
+}
